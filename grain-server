@@ -1,2 +1,2 @@
 #!/bin/bash -v
-exec php -S localhost:8000 -t web
+exec php -S localhost:${PORT:-8000} -t web
